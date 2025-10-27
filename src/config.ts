@@ -16,23 +16,23 @@ export const siteConfig: SiteConfig = {
 		fixed: false,
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png", 
-		position: "center", 
+		enable: true,
+		src: "assets/images/demo-banner.png",
+		position: "center",
 		credit: {
-			enable: true, 
-			text: "", 
+			enable: false,
+			text: "",
 			url: "",
 		},
 	},
 	toc: {
-		enable: true, 
+		enable: true,
 		depth: 2,
 	},
 	favicon: [
 		// {
-		//   src: '/favicon/icon.png',    
-		//   theme: 'light',              
+		//   src: '/favicon/icon.png',
+		//   theme: 'light',
 		//   sizes: '32x32',
 		// }
 	],
@@ -46,13 +46,13 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "GitHub",
 			url: "https://github.com/thehappyredwolf",
-			external: true, 
+			external: true,
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", 
+	avatar: "assets/images/demo-avatar.png",
 	name: "Lorem Ipsum",
 	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 	links: [
